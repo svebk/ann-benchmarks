@@ -63,4 +63,4 @@ for fn_in, fn_out in zip(args.input, args.output):
     plt.gca().legend(handles, labels, loc='center left', bbox_to_anchor=(1, 0.5), prop={'size': 9})
     plt.grid(b=True, which='major', color='0.65',linestyle='-')
     plt.xlim([0.0, 1.03])
-    plt.savefig(fn_out, bbox_inches='tight')
+    plt.savefig(fn_out, bbox_inches='tight', dpi=300)
